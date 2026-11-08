@@ -1,6 +1,6 @@
 # Gauna — downloads
 
-Ready-to-use programs. No source code here, just the files you need.
+Ready-to-use programs.
 
 | Program | What it is | Download |
 |---|---|---|
@@ -12,7 +12,7 @@ Other programs will appear here.
 
 ## In italiano
 
-Programmi pronti da usare. Qui non c'è il codice sorgente, solo i file che servono.
+Programmi pronti da usare.
 
 | Programma | Che cos'è | Scarica |
 |---|---|---|
@@ -24,6 +24,6 @@ I programmi nuovi compariranno qui.
 
 ---
 
-The releases named `metadata` and `targets` are data for our manager app: you don't need them.
+The releases named `metadata` and `targets` are data for our manager app, and they also hold the source code of the open-source programs we build: you don't need them to use the programs.
 
-Le release `metadata` e `targets` sono dati per il nostro manager: non ti servono.
+Le release `metadata` e `targets` sono dati per il nostro manager, e lì c'è anche il codice sorgente dei programmi open source che costruiamo: per usare i programmi non ti servono.
