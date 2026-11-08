@@ -26,7 +26,8 @@ jobs:
       - name: Get the script of this commit
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh api -H "Accept: application/vnd.github.raw+json" "/repos/$GITHUB_REPOSITORY/contents/.github/renew/rinnova_timestamp.py?ref=$GITHUB_SHA" > "$RUNNER_TEMP/renew.py"
+        run: |
+          gh api -H "Accept: application/vnd.github.raw+json" "/repos/$GITHUB_REPOSITORY/contents/.github/renew/rinnova_timestamp.py?ref=$GITHUB_SHA" > "$RUNNER_TEMP/renew.py"
       - name: Sign
         id: sign
         env:
@@ -45,7 +46,8 @@ jobs:
       - name: Get the script of this commit
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh api -H "Accept: application/vnd.github.raw+json" "/repos/$GITHUB_REPOSITORY/contents/.github/renew/rinnova_timestamp.py?ref=$GITHUB_SHA" > "$RUNNER_TEMP/renew.py"
+        run: |
+          gh api -H "Accept: application/vnd.github.raw+json" "/repos/$GITHUB_REPOSITORY/contents/.github/renew/rinnova_timestamp.py?ref=$GITHUB_SHA" > "$RUNNER_TEMP/renew.py"
       - name: Publish
         env:
           GH_TOKEN: ${{ github.token }}
