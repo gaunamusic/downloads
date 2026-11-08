@@ -1,0 +1,53 @@
+# Renews the signed timestamp of the download index, so that it does not expire.
+# Only the timestamp is signed here: the programs are signed by other keys, which are not on GitHub.
+name: Renew index timestamp
+
+on:
+  schedule:
+    - cron: "23 5,17 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: renew-timestamp
+  cancel-in-progress: false
+
+jobs:
+  sign:
+    name: Sign
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    outputs:
+      timestamp: ${{ steps.sign.outputs.timestamp }}
+    steps:
+      - name: Get the script of this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -H "Accept: application/vnd.github.raw+json" "/repos/$GITHUB_REPOSITORY/contents/.github/renew/rinnova_timestamp.py?ref=$GITHUB_SHA" > "$RUNNER_TEMP/renew.py"
+      - name: Sign
+        id: sign
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TUF_TIMESTAMP_KEY: ${{ secrets.TUF_TIMESTAMP_KEY }}
+        run: python3 -I "$RUNNER_TEMP/renew.py" firma
+
+  publish:
+    name: Publish
+    needs: sign
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Get the script of this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -H "Accept: application/vnd.github.raw+json" "/repos/$GITHUB_REPOSITORY/contents/.github/renew/rinnova_timestamp.py?ref=$GITHUB_SHA" > "$RUNNER_TEMP/renew.py"
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TIMESTAMP_B64: ${{ needs.sign.outputs.timestamp }}
+        run: python3 -I "$RUNNER_TEMP/renew.py" pubblica
