@@ -293,9 +293,11 @@ def _riordina_i_resti(api, rel, assets, avvisi):
     return rel, assets
 
 
-def sostituisci(api, dati, avvisi):
+def sostituisci(api, dati, avvisi, porta_uno_snapshot_nuovo=False):
     """Il cambio. Vero se il file è stato sostituito, Falso se nel frattempo il timestamp sul web è cambiato e questo è superato.
-    Il file di prima resta al suo posto finché quello nuovo non c'è ed è stato riletto."""
+    Il file di prima resta al suo posto finché quello nuovo non c'è ed è stato riletto. Il rinnovo automatico rifirma lo stesso
+    snapshot, e tutto il resto lo prende per un incrocio; con `porta_uno_snapshot_nuovo`, chi pubblica uno snapshot nuovo dal Mac
+    chiede solo una versione più alta di quella sul web."""
     documento = json.loads(dati)
     rel, assets = api.stato()
     rel, assets = _riordina_i_resti(api, rel, assets, avvisi)
@@ -305,7 +307,11 @@ def sostituisci(api, dati, avvisi):
     if not controlla_firma(documento, keyid, pubblica):
         raise Fermo("il timestamp da pubblicare non è firmato dalla chiave della root: non si pubblica")
     corrente = json.loads(api.scarica(assets[NOME]))
-    if corrente["signed"]["version"] + 1 != documento["signed"]["version"] or corrente["signed"]["meta"] != documento["signed"]["meta"]:
+    if porta_uno_snapshot_nuovo:
+        superata = documento["signed"]["version"] <= corrente["signed"]["version"]
+    else:
+        superata = corrente["signed"]["version"] + 1 != documento["signed"]["version"] or corrente["signed"]["meta"] != documento["signed"]["meta"]
+    if superata:
         avvisi.append(f"il timestamp sul web è cambiato mentre si firmava (ora è il v{corrente['signed']['version']}): questa firma è superata e non si pubblica")
         return False
     vecchio_id = assets[NOME]["id"]
