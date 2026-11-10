@@ -2,9 +2,9 @@
 
 Ready-to-use programs.
 
-| Program | What it is | Download |
-|---|---|---|
-| SonoGraphic | Draw what you hear | [SonoGraphic.zip](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic.zip) |
+| Program | What it is | Download | License |
+|---|---|---|---|
+| SonoGraphic | Draw what you hear | [SonoGraphic.zip](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic.zip) | [MIT](https://github.com/gaunamusic/downloads/releases/download/sonographic/LICENSE.txt) · [source code](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic-source.zip) |
 
 Unzip it and double-click `SonoGraphic.html`. It runs in your web browser, also offline. The program is in Italian.
 
@@ -14,9 +14,9 @@ Other programs will appear here.
 
 Programmi pronti da usare.
 
-| Programma | Che cos'è | Scarica |
-|---|---|---|
-| SonoGraphic | Disegna ciò che ascolti | [SonoGraphic.zip](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic.zip) |
+| Programma | Che cos'è | Scarica | Licenza |
+|---|---|---|---|
+| SonoGraphic | Disegna ciò che ascolti | [SonoGraphic.zip](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic.zip) | [MIT](https://github.com/gaunamusic/downloads/releases/download/sonographic/LICENSE.txt) · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic-source.zip) |
 
 Apri lo zip e fai doppio clic su `SonoGraphic.html`. Funziona nel browser, anche senza rete. Il programma è in italiano.
 
