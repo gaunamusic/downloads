@@ -2,7 +2,7 @@
 
 Ready-to-use programs.
 
-| Program | What it is | Download | License |
+| Program | What it is | Download | Licence |
 |---|---|---|---|
 | SonoGraphic | Draw what you hear | [SonoGraphic.zip](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic.zip) | [MIT](https://github.com/gaunamusic/downloads/releases/download/sonographic/LICENSE.txt) · [source code](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic-source.zip) |
 
