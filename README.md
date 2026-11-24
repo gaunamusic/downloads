@@ -25,7 +25,7 @@ Ready-to-use programs.
 |---|---|---|---|
 | SonoGraphic | Draw what you hear | [SonoGraphic.zip](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic.zip) | [MIT](https://github.com/gaunamusic/downloads/releases/download/sonographic/LICENSE.txt) · [source code](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic-source.zip) |
 | CSGraph | Our environment for Csound, for macOS | [CSGraph-0.1.0-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/csgraph/CSGraph-0.1.0-macOS.pkg) | GPL-3.0 · [source code](https://github.com/gaunamusic/downloads/releases/download/csgraph/CSGraph-0.1.0-source.tar.gz) |
-| PDGraph | Pure Data inside your DAW, for macOS | [PDGraph-0.1.0-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.0-macOS.pkg) | GPL-3.0 · [source code](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.0-source.tar.gz) |
+| PDGraph | Pure Data inside your DAW, for macOS | [PDGraph-0.1.1-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.1-macOS.pkg) | GPL-3.0 · [source code](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.1-source.tar.gz) |
 
 Unzip it and double-click `SonoGraphic.html`. It runs in your web browser, also offline. The program is in Italian. Open the CSGraph or PDGraph package and follow the Installer; the notes are in their Releases.
 
@@ -59,7 +59,7 @@ Programmi pronti da usare.
 |---|---|---|---|
 | SonoGraphic | Disegna ciò che ascolti | [SonoGraphic.zip](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic.zip) | [MIT](https://github.com/gaunamusic/downloads/releases/download/sonographic/LICENSE.txt) · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic-source.zip) |
 | CSGraph | Il nostro ambiente per Csound, per macOS | [CSGraph-0.1.0-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/csgraph/CSGraph-0.1.0-macOS.pkg) | GPL-3.0 · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/csgraph/CSGraph-0.1.0-source.tar.gz) |
-| PDGraph | Pure Data dentro la tua DAW, per macOS | [PDGraph-0.1.0-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.0-macOS.pkg) | GPL-3.0 · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.0-source.tar.gz) |
+| PDGraph | Pure Data dentro la tua DAW, per macOS | [PDGraph-0.1.1-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.1-macOS.pkg) | GPL-3.0 · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.1-source.tar.gz) |
 
 Apri lo zip e fai doppio clic su `SonoGraphic.html`. Funziona nel browser, anche senza rete. Il programma è in italiano. Apri il pacchetto di CSGraph o di PDGraph e segui l'Installer; le note sono nelle loro Release.
 
