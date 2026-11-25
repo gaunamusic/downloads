@@ -6,12 +6,12 @@ Download ControlGraph for your computer, open it, and install our programs from 
 
 | Your computer | Download |
 |---|---|
-| macOS 11 or later, Apple silicon | [ControlGraph-0.1.2-arm64.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.2-arm64.dmg) |
-| macOS 11 or later, Apple silicon or Intel | [ControlGraph-0.1.2-universal.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.2-universal.dmg) |
-| macOS 10.13 or later, Intel | [ControlGraph-0.1.2-legacy.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.2-legacy.dmg) |
+| macOS 11 or later, Apple silicon | [ControlGraph-0.1.3-arm64.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.3-arm64.dmg) |
+| macOS 11 or later, Apple silicon or Intel | [ControlGraph-0.1.3-universal.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.3-universal.dmg) |
+| macOS 10.13 or later, Intel | [ControlGraph-0.1.3-legacy.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.3-legacy.dmg) |
 | Linux, x86_64 (glibc 2.35 or later, as in Ubuntu 22.04) | [ControlGraph-x86_64.AppImage](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-x86_64.AppImage) |
 | Linux, arm64 (glibc 2.35 or later, as in Ubuntu 22.04) | [ControlGraph-arm64.AppImage](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-arm64.AppImage) |
-| Windows 10 or 11, x64 | [ControlGraph-0.1.2-x64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.2-x64.msi) |
+| Windows 10 or 11, x64 | [ControlGraph-0.1.3-x64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.3-x64.msi) |
 | Windows 11, ARM64 | [ControlGraph-0.1.0-arm64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.0-arm64.msi) |
 
 Licence: [MIT](https://github.com/gaunamusic/downloads/releases/download/controlgraph/LICENSE.txt) · [source code](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-source.zip) · [notices for the VCV Rack modules](https://github.com/gaunamusic/downloads/releases/download/controlgraph/THIRD-PARTY-NOTICES-VCV-modules.txt).
@@ -40,12 +40,12 @@ Scarica ControlGraph per il tuo computer, aprilo, e installa da lì i nostri pro
 
 | Il tuo computer | Scarica |
 |---|---|
-| macOS 11 o più nuovo, Apple silicon | [ControlGraph-0.1.2-arm64.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.2-arm64.dmg) |
-| macOS 11 o più nuovo, Apple silicon o Intel | [ControlGraph-0.1.2-universal.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.2-universal.dmg) |
-| macOS 10.13 o più nuovo, Intel | [ControlGraph-0.1.2-legacy.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.2-legacy.dmg) |
+| macOS 11 o più nuovo, Apple silicon | [ControlGraph-0.1.3-arm64.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.3-arm64.dmg) |
+| macOS 11 o più nuovo, Apple silicon o Intel | [ControlGraph-0.1.3-universal.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.3-universal.dmg) |
+| macOS 10.13 o più nuovo, Intel | [ControlGraph-0.1.3-legacy.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.3-legacy.dmg) |
 | Linux, x86_64 (glibc 2.35 o più nuova, come Ubuntu 22.04) | [ControlGraph-x86_64.AppImage](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-x86_64.AppImage) |
 | Linux, arm64 (glibc 2.35 o più nuova, come Ubuntu 22.04) | [ControlGraph-arm64.AppImage](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-arm64.AppImage) |
-| Windows 10 o 11, x64 | [ControlGraph-0.1.2-x64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.2-x64.msi) |
+| Windows 10 o 11, x64 | [ControlGraph-0.1.3-x64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.3-x64.msi) |
 | Windows 11, ARM64 | [ControlGraph-0.1.0-arm64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.0-arm64.msi) |
 
 Licenza: [MIT](https://github.com/gaunamusic/downloads/releases/download/controlgraph/LICENSE.txt) · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-source.zip) · [avvisi dei moduli per VCV Rack](https://github.com/gaunamusic/downloads/releases/download/controlgraph/THIRD-PARTY-NOTICES-VCV-modules.txt).
