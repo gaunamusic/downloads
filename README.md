@@ -6,12 +6,12 @@ Download ControlGraph for your computer, open it, and install our programs from 
 
 | Your computer | Download |
 |---|---|
-| macOS 11 or later, Apple silicon | [ControlGraph-0.1.4-arm64.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.4-arm64.dmg) |
-| macOS 11 or later, Apple silicon or Intel | [ControlGraph-0.1.4-universal.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.4-universal.dmg) |
-| macOS 10.13 or later, Intel | [ControlGraph-0.1.4-legacy.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.4-legacy.dmg) |
+| macOS 11 or later, Apple silicon | [ControlGraph-0.1.5-arm64.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.5-arm64.dmg) |
+| macOS 11 or later, Apple silicon or Intel | [ControlGraph-0.1.5-universal.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.5-universal.dmg) |
+| macOS 10.13 or later, Intel | [ControlGraph-0.1.5-legacy.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.5-legacy.dmg) |
 | Linux, x86_64 (glibc 2.35 or later, as in Ubuntu 22.04) | [ControlGraph-x86_64.AppImage](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-x86_64.AppImage) |
 | Linux, arm64 (glibc 2.35 or later, as in Ubuntu 22.04) | [ControlGraph-arm64.AppImage](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-arm64.AppImage) |
-| Windows 10 or 11, x64 | [ControlGraph-0.1.4-x64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.4-x64.msi) |
+| Windows 10 or 11, x64 | [ControlGraph-0.1.5-x64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.5-x64.msi) |
 | Windows 11, ARM64 | [ControlGraph-0.1.0-arm64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.0-arm64.msi) |
 
 Licence: [MIT](https://github.com/gaunamusic/downloads/releases/download/controlgraph/LICENSE.txt) · [source code](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-source.zip) · [notices for the VCV Rack modules](https://github.com/gaunamusic/downloads/releases/download/controlgraph/THIRD-PARTY-NOTICES-VCV-modules.txt).
@@ -25,7 +25,7 @@ Ready-to-use programs.
 |---|---|---|---|
 | SonoGraphic | Draw what you hear | [SonoGraphic.zip](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic.zip) | [MIT](https://github.com/gaunamusic/downloads/releases/download/sonographic/LICENSE.txt) · [source code](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic-source.zip) |
 | CSGraph | Our environment for Csound, for macOS | [CSGraph-0.1.0-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/csgraph/CSGraph-0.1.0-macOS.pkg) | GPL-3.0 · [source code](https://github.com/gaunamusic/downloads/releases/download/csgraph/CSGraph-0.1.0-source.tar.gz) |
-| PDGraph | Pure Data inside your DAW, for macOS | [PDGraph-0.1.1-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.1-macOS.pkg) | GPL-3.0 · [source code](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.1-source.tar.gz) |
+| PDGraph | Pure Data inside your DAW, for macOS | [PDGraph-0.1.2-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.2-macOS.pkg) | GPL-3.0 · [source code](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.2-source.tar.gz) |
 
 Unzip it and double-click `SonoGraphic.html`. It runs in your web browser, also offline. The program is in Italian. Open the CSGraph or PDGraph package and follow the Installer; the notes are in their Releases.
 
@@ -40,12 +40,12 @@ Scarica ControlGraph per il tuo computer, aprilo, e installa da lì i nostri pro
 
 | Il tuo computer | Scarica |
 |---|---|
-| macOS 11 o più nuovo, Apple silicon | [ControlGraph-0.1.4-arm64.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.4-arm64.dmg) |
-| macOS 11 o più nuovo, Apple silicon o Intel | [ControlGraph-0.1.4-universal.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.4-universal.dmg) |
-| macOS 10.13 o più nuovo, Intel | [ControlGraph-0.1.4-legacy.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.4-legacy.dmg) |
+| macOS 11 o più nuovo, Apple silicon | [ControlGraph-0.1.5-arm64.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.5-arm64.dmg) |
+| macOS 11 o più nuovo, Apple silicon o Intel | [ControlGraph-0.1.5-universal.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.5-universal.dmg) |
+| macOS 10.13 o più nuovo, Intel | [ControlGraph-0.1.5-legacy.dmg](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.5-legacy.dmg) |
 | Linux, x86_64 (glibc 2.35 o più nuova, come Ubuntu 22.04) | [ControlGraph-x86_64.AppImage](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-x86_64.AppImage) |
 | Linux, arm64 (glibc 2.35 o più nuova, come Ubuntu 22.04) | [ControlGraph-arm64.AppImage](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-arm64.AppImage) |
-| Windows 10 o 11, x64 | [ControlGraph-0.1.4-x64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.4-x64.msi) |
+| Windows 10 o 11, x64 | [ControlGraph-0.1.5-x64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.5-x64.msi) |
 | Windows 11, ARM64 | [ControlGraph-0.1.0-arm64.msi](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-0.1.0-arm64.msi) |
 
 Licenza: [MIT](https://github.com/gaunamusic/downloads/releases/download/controlgraph/LICENSE.txt) · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/controlgraph/ControlGraph-source.zip) · [avvisi dei moduli per VCV Rack](https://github.com/gaunamusic/downloads/releases/download/controlgraph/THIRD-PARTY-NOTICES-VCV-modules.txt).
@@ -59,7 +59,7 @@ Programmi pronti da usare.
 |---|---|---|---|
 | SonoGraphic | Disegna ciò che ascolti | [SonoGraphic.zip](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic.zip) | [MIT](https://github.com/gaunamusic/downloads/releases/download/sonographic/LICENSE.txt) · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/sonographic/SonoGraphic-source.zip) |
 | CSGraph | Il nostro ambiente per Csound, per macOS | [CSGraph-0.1.0-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/csgraph/CSGraph-0.1.0-macOS.pkg) | GPL-3.0 · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/csgraph/CSGraph-0.1.0-source.tar.gz) |
-| PDGraph | Pure Data dentro la tua DAW, per macOS | [PDGraph-0.1.1-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.1-macOS.pkg) | GPL-3.0 · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.1-source.tar.gz) |
+| PDGraph | Pure Data dentro la tua DAW, per macOS | [PDGraph-0.1.2-macOS.pkg](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.2-macOS.pkg) | GPL-3.0 · [codice sorgente](https://github.com/gaunamusic/downloads/releases/download/pdgraph/PDGraph-0.1.2-source.tar.gz) |
 
 Apri lo zip e fai doppio clic su `SonoGraphic.html`. Funziona nel browser, anche senza rete. Il programma è in italiano. Apri il pacchetto di CSGraph o di PDGraph e segui l'Installer; le note sono nelle loro Release.
 
